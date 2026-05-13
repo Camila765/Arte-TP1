@@ -2,3 +2,48 @@
 margin: 0;
 padding: 0;
 }
+nav{
+    width: 80%;
+    display: inline-block;
+}
+header div{
+    width: 20%;
+    float: right;
+}
+header nav ul li button{
+    width: 10%;
+    float: left;
+    margin: 1%;
+    padding: 0.25%;
+    border-radius: 10px;
+    text-align: center;
+    color: #F7EADE;
+    background-color: #92140C;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+header nav ul{
+    width: 100%;
+    display: inline-block;
+    list-style: none;
+}
+header div ul li button{
+    width: 40%;
+    float: left;
+    margin: 4%;
+    padding: 1%;
+    border-radius: 10px;
+    text-align: center;
+    color: #F7EADE;
+    background-color: #92140C;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+header div ul{
+    width: 100%;
+    display: inline-block;
+    list-style: none;
+
+}
+.seleccionado{
+    color: #92140C;
+    background-color: #F7EADE;
+}
