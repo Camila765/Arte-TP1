@@ -4,25 +4,41 @@ padding: 0;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 main{
-    background-color: #F7EADE;
+    background-color: #F5EFEA;
     padding-top: 80px;
+    text-align: center;
 }
 h1{
     text-align: center;
-    color: #92140C;
+    color: #7b1e1e;
     font-size:400%;
 }
-
 h2{
-    color: #92140C;
+    color: #7b1e1e;
     text-align: center;
-    font-size: 150%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    font-size: 200%;
+}
+h3{
+    color: #7b1e1e;
+    text-align: center;
+    font-size: 140%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h4{
+    color: #7b1e1e;
+    text-align: center;
+    font-size: 110%;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
 }
 header{
-    background-color: #dfdfdf;
+    background-color: #c7c7c7;
     position: fixed;
     width: 100%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px #00000062;
     padding-bottom: 0.3%;
     padding-top: 0.3%;
 }
@@ -41,9 +57,9 @@ header nav ul li button{
     padding: 0.25%;
     border-radius: 10px;
     text-align: center;
-    color: #F7EADE;
-    background-color: #92140C;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+    color: #F5EFEA;
+    background-color: #7b1e1e;
+    box-shadow: 5px 5px 10px #00000062;
     border: none;
 }
 header nav ul{
@@ -58,9 +74,9 @@ header div ul li button{
     padding: 1%;
     border-radius: 10px;
     text-align: center;
-    color: #F7EADE;
-    background-color: #92140C;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+    color: #F5EFEA;
+    background-color: #7b1e1e;
+    box-shadow: 5px 5px 10px #00000062;
     border: none;
 }
 header div ul{
@@ -70,13 +86,14 @@ header div ul{
 
 }
 .seleccionado{
-    color: #92140C;
-    background-color: #F7EADE;
+    color: #7b1e1e;
+    background-color: #fff2d8;
 }
 footer{
     width: 100%;
     display: inline-block;
-    background-color: #dfdfdf;
+    background-color: #c7c7c7;
+    color: #3a2a26;
 }
 footer .Contacto{
     width: 80%;
@@ -106,18 +123,17 @@ footer .Redes_Sociales .app li{
 }
 .Descripcion{
     width: 100%;
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-top: 6%;
+    padding-bottom: 6%;
     text-align: center;
-    background-color: #000000;
+    background-color: #dfdddb;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
 .Descripcion p{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: #F7EADE;
+    width: 60%;
+    margin-left: 20%;
+    color: #3a2a26;
 }
 .Opiniones{
     width: 60%;
@@ -128,10 +144,10 @@ footer .Redes_Sociales .app li{
 .Opiniones .persona{
     width: 29%;
     margin: 2%;
-    background-color: #92140C;
+    background-color: #7b1e1e;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
-    boder: none;
+    box-shadow: 5px 5px 10px #00000062;
+    border: none;
     float: left;
     text-align: center;
 }
@@ -141,16 +157,110 @@ footer .Redes_Sociales .app li{
     margin-top: 5%;
 }
 .Opiniones .persona p{
-    color: #F7EADE;
+    color: #F5EFEA;
     margin: 7%;
 }
 .Opiniones .persona h3{
-    color: #F7EADE;
+    color: #F5EFEA;
     margin-top: 5%;
 }
 .Opiniones .persona .estrellas{
     font-size: 150%;
 }
-.Opiniones h2{
+.Ubicacion
+{
+    width: 40%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 3%;
+    background-color: #dfdddb;
+    border-radius: 10px;
+    color: #3a2a26;
+    float: left;
+    width: 45%;
+}
+.Ubicacion p
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.Ubicacion img
+{
+    width: 150px;
+    height: 100px;
+}
+.Horarios
+{    
+    width: 40%;
+    padding: 1%;
+    margin-top: 7%;
+    margin-right: 2%;
+    background-color: #dfdddb;
+    text-align: center;
+    border-radius: 10px;
+    color: #3a2a26;
+    float: right;
+    width: 45%;
+}
+.Horarios ul
+{
+    list-style: none;
+}
+.Horarios ul li
+{
+    margin: 1%;
+}
+.contenedor
+{
+    width: 100%;
+    height: 530px;
+}
+.contenedor p
+{
+    width: 100%;
+    margin-left: 1%;
+    margin-top: 2%;
     margin-bottom: 2%;
+    color: #3a2a26;
+}
+.contenedor_formulario
+{
+    background-color: #dcc9c9;
+    border: 2px solid #8B1E1E;
+    margin-left: 40%;
+    border-radius: 10px;
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.contenedor_formulario_Sesion
+{
+    background-color: #dcc9c9;
+    border: 2px solid #8B1E1E;
+    margin-left: 40%;
+    border-radius: 10px;
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+input
+{
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: 1px solid #bcbcbc;
+}
+.contenedor_formulario button
+{
+    background-color: #8B1E1E;
+    border-radius: 10px;
+    border:none;
+    color: #dcc9c9;
+    width: 50%;
+    margin-top: 4%;
+    padding: 1%;
+    text-align: center;
+    box-shadow: 5px 5px 10px #00000062;
 }
