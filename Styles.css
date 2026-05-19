@@ -264,7 +264,6 @@ input[type="checkbox"]
 }
 .menu{
     width: 38%;
-    min-height: 320px;
     text-align: left;
     background-color: #dcc9c9;
     border: 2px solid #8B1E1E;
@@ -292,6 +291,42 @@ input[type="checkbox"]
 .menu ul li{
     margin-bottom: 4%;
     color: #3a2a26;
+}
+.menu_sin_diseño_derecho{
+    margin-top: 3%;
+    margin-left: 55%;
+    width:40%
+}
+.menu_sin_diseño_derecho img{
+    width: 40%;
+    height: 300px;
+    margin-top: 3%;
+    margin-left: 2%
+}
+.menu_sin_diseño_derecho ul{
+    list-style: none;
+}
+.menu_sin_diseño_derecho ul li{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.menu_sin_diseño_izquierdo{
+    border: 1px solid black;
+    margin-bottom: 2%;
+    margin-left:5%;
+    width:40%
+}
+.menu_sin_diseño_izquierdo h2{
+    margin-right: 80%;
+    margin-left: 40%
+}
+.menu_sin_diseño_izquierdo ul{
+    list-style: none;
+    width: 56%;
+    margin-left: 19%;
+}
+.menu_sin_diseño_izquierdo ul li{
+    margin-bottom: 1%;
 }
 .historia{ 
     width: 100%; 
@@ -363,7 +398,6 @@ input[type="checkbox"]
     font-size: 225%;
     margin-bottom: 2%;
     margin-top: 3%;
-    text-decoration: wavy underline;
 }
 .contenedor_fundadores{
     width: 38%;
@@ -424,4 +458,60 @@ input[type="checkbox"]
     margin-left: 19%;
     font-size: 120%;
     width: 62%;
+}
+
+/* HTML
+<div class="menu_izquierdo">
+    <h2>Bebidas</h2>
+</div>
+
+<div class="menu_derecho">
+    <h2>Entradas</h2>
+</div>
+
+<div class="menu_derecho">
+    <h2>Platos</h2>
+</div>
+
+<div class="menu_izquierdo">
+    <h2>Postres</h2>
+</div>
+
+<div class="menu_izquierdo">
+    <h2>Destacado</h2>
+</div>
+
+<div class="menu_derecho">
+    <h2>Menu Infantil</h2>
+</div>
+
+<div class="clear"></div>
+
+CSS
+.menu_izquierdo{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 2%;
+
+    background-color: #dcc9c9;
+    border: 2px solid #8B1E1E;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.menu_derecho{
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 2%;
+
+    background-color: #dcc9c9;
+    border: 2px solid #8B1E1E;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.clear{
+    clear: both;
 }
