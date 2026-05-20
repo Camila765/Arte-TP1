@@ -50,7 +50,7 @@ header div{
     width: 20%;
     float: right;
 }
-header div ul li button{
+header div ul li {
     width: 40%;
     float: left;
     margin: 4%;
@@ -68,11 +68,14 @@ header div ul{
     list-style: none;
 
 }
+header ul li a {
+    color: #F5EFEA
+}
 nav{
     width: 80%;
     display: inline-block;
 }
-header nav ul li button{
+header nav ul li {
     width: 10%;
     float: left;
     margin: 1%;
@@ -88,10 +91,6 @@ header nav ul{
     width: 100%;
     display: inline-block;
     list-style: none;
-}
-.seleccionado{
-    color: #7b1e1e;
-    background-color: #fff2d8;
 }
 footer{
     width: 100%;
