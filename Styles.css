@@ -108,12 +108,12 @@ footer .Redes_Sociales{
     width: 20%;
     float: right;
 }
-footer .Redes_Sociales .app{
+footer .Redes_Sociales li{
     display: inline-block;
     width: 100%;
     height: 20%;
 }
-footer .Redes_Sociales .app img{
+footer .Redes_Sociales li img{
     width: 15%;
     float: left;
     margin-right: 2%;
@@ -142,7 +142,7 @@ footer .Redes_Sociales .app img{
     margin-right: 20%;
     display: inline-block;
 }
-.Opiniones .persona{
+.Opiniones div{
     width: 29%;
     height: 456px;
     margin: 2%;
@@ -152,21 +152,21 @@ footer .Redes_Sociales .app img{
     float: left;
     text-align: center;
 }
-.Opiniones .persona h3{
+.Opiniones div h3{
     color: #F5EFEA;
     margin-top: 5%;
 }
-.Opiniones .persona p{
+.Opiniones div p{
     color: #F5EFEA;
     margin: 7%;
 }
-.Opiniones .persona img{
+.Opiniones div img{
     width: 50%;
     height: 160px;
     border-radius: 50%;
     margin-top: 5%;
 }
-.Opiniones .persona .estrellas{
+.Opiniones div .estrellas{
     font-size: 150%;
 }
 .Ubicacion
