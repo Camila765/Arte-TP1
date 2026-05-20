@@ -3,8 +3,10 @@ margin: 0;
 padding: 0;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-main{
+body{
     background-color: #F5EFEA;
+}
+main{
     padding-top: 80px;
     text-align: center;
     padding-bottom: 3%;
@@ -17,6 +19,7 @@ h1{
 h2{
     color: #7b1e1e;
     text-align: center;
+    text-decoration: underline;
     margin-bottom: 4%;
     margin-top: 2%;
     font-size: 200%;
@@ -116,12 +119,6 @@ footer .Redes_Sociales .app img{
     float: left;
     margin-right: 2%;
 }
-footer .Redes_Sociales .app li{
-    width: 80%;
-    float: left;
-    list-style: none;
-    margin-top: 3%;
-}
 .Descripcion{
     width: 99.7%;
     padding-top: 6%;
@@ -148,16 +145,17 @@ footer .Redes_Sociales .app li{
 }
 .Opiniones .persona{
     width: 29%;
+    height: 456px;
     margin: 2%;
     background-color: #7b1e1e;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #00000062;
     float: left;
     text-align: center;
-    min-height: 370px;
 }
 .Opiniones .persona img{
     width: 50%;
+    height: 160px;
     border-radius: 50%;
     margin-top: 5%;
 }
@@ -262,71 +260,73 @@ input[type="checkbox"]
 {
     width: auto;
 }
-.menu{
-    width: 38%;
+.menu_rojo{
+    width: 33%;
     text-align: left;
     background-color: #dcc9c9;
     border: 2px solid #8B1E1E;
-    padding: 2%;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 2%;
     float: left;
-    margin-left: 6%;
+    margin-left: 7%;
     margin-top: 2%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #00000031;
 }
-.menu h2{
-    margin-bottom: 6%;
-}
-.menu ul
-{
+.menu_rojo ul{
     list-style: none;
 }
-.menu img{
+.menu_rojo ul li{
+    margin-bottom: 4%;
+    color: #3a2a26;
+}
+.menu_rojo img{
     width: 70%;
     margin-top: 5%;
     margin-left: 15%;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #00000062;
 }
-.menu ul li{
-    margin-bottom: 4%;
-    color: #3a2a26;
-}
 .menu_sin_diseño_derecho{
-    margin-top: 3%;
-    margin-left: 55%;
-    width:40%
-}
-.menu_sin_diseño_derecho img{
     width: 40%;
-    height: 300px;
+    float: right;
+    margin-right: 7%;
     margin-top: 3%;
-    margin-left: 2%
 }
 .menu_sin_diseño_derecho ul{
     list-style: none;
 }
 .menu_sin_diseño_derecho ul li{
-    margin-left: 2%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+}
+.menu_sin_diseño_derecho img{
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 1%;
+    height: 315px;
 }
 .menu_sin_diseño_izquierdo{
-    border: 1px solid black;
-    margin-bottom: 2%;
-    margin-left:5%;
-    width:40%
-}
-.menu_sin_diseño_izquierdo h2{
-    margin-right: 80%;
-    margin-left: 40%
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2%;
+    clear: left;
 }
 .menu_sin_diseño_izquierdo ul{
     list-style: none;
-    width: 56%;
-    margin-left: 19%;
+    width: 80%;
+    margin-left: 10%;
 }
 .menu_sin_diseño_izquierdo ul li{
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+}
+.menu_sin_diseño_izquierdo img{
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 1%;
+    height: 315px;
 }
 .historia{ 
     width: 100%; 
@@ -357,10 +357,6 @@ input[type="checkbox"]
     border-radius: 10px; 
     box-shadow: 5px 5px 10px #00000062; 
 }
-.contenedor{ 
-    width: 100%; 
-    display: inline-block; 
-}
 .contenedor_minihistoria{
     width: 38%;
     float: left; 
@@ -376,7 +372,7 @@ input[type="checkbox"]
 .contenedor_minihistoria p{
     margin-bottom: 1%;
     color: #3a2a26; 
-    font-size: 144%; 
+    font-size: 140%; 
     padding: 1%;
 }
 .creadores{
@@ -385,9 +381,8 @@ input[type="checkbox"]
     margin-top: 2%;
 }
 .creadores h2{
-    font-size: 450%;
-    margin-bottom: 2%;
-    text-decoration: underline;
+    font-size: 400%;
+    margin-bottom: 3%;
 }
 .creadores h3{
     font-size: 250%;
@@ -398,6 +393,14 @@ input[type="checkbox"]
     font-size: 225%;
     margin-bottom: 2%;
     margin-top: 3%;
+}
+.contenedor_fundadores p{
+    width: 100%;
+    margin-top: 1%; 
+    margin-bottom: 1%; 
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 140%;
 }
 .contenedor_fundadores{
     width: 38%;
@@ -410,14 +413,6 @@ input[type="checkbox"]
     padding-right: 3%;
     box-shadow: 5px 5px 10px #00000031;
     border: 2px solid #bcbcbc;
-}
-.contenedor_fundadores p{
-    width: 100%;
-    margin-top: 1%; 
-    margin-bottom: 1%; 
-    border-radius: 10px;
-    padding: 2%;
-    font-size: 140%;
 }
 .creadores img{
     width: 26%;
@@ -458,60 +453,4 @@ input[type="checkbox"]
     margin-left: 19%;
     font-size: 120%;
     width: 62%;
-}
-
-/* HTML
-<div class="menu_izquierdo">
-    <h2>Bebidas</h2>
-</div>
-
-<div class="menu_derecho">
-    <h2>Entradas</h2>
-</div>
-
-<div class="menu_derecho">
-    <h2>Platos</h2>
-</div>
-
-<div class="menu_izquierdo">
-    <h2>Postres</h2>
-</div>
-
-<div class="menu_izquierdo">
-    <h2>Destacado</h2>
-</div>
-
-<div class="menu_derecho">
-    <h2>Menu Infantil</h2>
-</div>
-
-<div class="clear"></div>
-
-CSS
-.menu_izquierdo{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    margin-bottom: 2%;
-
-    background-color: #dcc9c9;
-    border: 2px solid #8B1E1E;
-    padding: 2%;
-    border-radius: 10px;
-}
-
-.menu_derecho{
-    width: 40%;
-    float: right;
-    margin-right: 5%;
-    margin-bottom: 2%;
-
-    background-color: #dcc9c9;
-    border: 2px solid #8B1E1E;
-    padding: 2%;
-    border-radius: 10px;
-}
-
-.clear{
-    clear: both;
 }
