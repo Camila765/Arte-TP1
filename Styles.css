@@ -46,30 +46,9 @@ header{
     padding-bottom: 0.3%;
     padding-top: 0.3%;
 }
-nav{
-    width: 80%;
-    display: inline-block;
-}
 header div{
     width: 20%;
     float: right;
-}
-header nav ul li button{
-    width: 10%;
-    float: left;
-    margin: 1%;
-    padding: 0.25%;
-    border-radius: 10px;
-    text-align: center;
-    color: #F5EFEA;
-    background-color: #7b1e1e;
-    box-shadow: 5px 5px 10px #00000062;
-    border: none;
-}
-header nav ul{
-    width: 100%;
-    display: inline-block;
-    list-style: none;
 }
 header div ul li button{
     width: 40%;
@@ -88,6 +67,27 @@ header div ul{
     display: inline-block;
     list-style: none;
 
+}
+nav{
+    width: 80%;
+    display: inline-block;
+}
+header nav ul li button{
+    width: 10%;
+    float: left;
+    margin: 1%;
+    padding: 0.25%;
+    border-radius: 10px;
+    text-align: center;
+    color: #F5EFEA;
+    background-color: #7b1e1e;
+    box-shadow: 5px 5px 10px #00000062;
+    border: none;
+}
+header nav ul{
+    width: 100%;
+    display: inline-block;
+    list-style: none;
 }
 .seleccionado{
     color: #7b1e1e;
@@ -153,18 +153,18 @@ footer .Redes_Sociales .app img{
     float: left;
     text-align: center;
 }
-.Opiniones .persona img{
-    width: 50%;
-    height: 160px;
-    border-radius: 50%;
+.Opiniones .persona h3{
+    color: #F5EFEA;
     margin-top: 5%;
 }
 .Opiniones .persona p{
     color: #F5EFEA;
     margin: 7%;
 }
-.Opiniones .persona h3{
-    color: #F5EFEA;
+.Opiniones .persona img{
+    width: 50%;
+    height: 160px;
+    border-radius: 50%;
     margin-top: 5%;
 }
 .Opiniones .persona .estrellas{
@@ -191,8 +191,8 @@ footer .Redes_Sociales .app img{
 }
 .Ubicacion img
 {
-    width: 150px;
-    height: 100px;
+    width: 400px;
+    height: 250px;
 }
 .Horarios
 {      
@@ -213,6 +213,17 @@ footer .Redes_Sociales .app img{
 .Horarios ul li
 {
     margin: 1%;
+}
+input
+{
+    width: 50%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: 1px solid #bcbcbc;
+}
+input[type="checkbox"]
+{
+    width: auto;
 }
 .contenedor
 {
@@ -237,13 +248,6 @@ footer .Redes_Sociales .app img{
     padding-top: 1%;
     padding-bottom: 2%;
 }
-input
-{
-    width: 50%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    border: 1px solid #bcbcbc;
-}
 .contenedor_formulario button
 {
     background-color: #8B1E1E;
@@ -255,10 +259,6 @@ input
     padding: 1%;
     text-align: center;
     box-shadow: 5px 5px 10px #00000062;
-}
-input[type="checkbox"]
-{
-    width: auto;
 }
 .menu_rojo{
     width: 33%;
@@ -315,9 +315,9 @@ input[type="checkbox"]
     clear: left;
 }
 .menu_sin_diseño_izquierdo ul{
-    list-style: none;
     width: 80%;
     margin-left: 10%;
+    list-style: none;
 }
 .menu_sin_diseño_izquierdo ul li{
     margin-bottom: 3%;
@@ -363,17 +363,17 @@ input[type="checkbox"]
     text-align: left; 
     margin-left: 11%; 
     margin-top: 2%; 
+    padding: 2%;
     background-color: #dfdddb;
     border-radius: 10px;
-    padding: 2%;
     box-shadow: 5px 5px 10px #00000031;
     border: 2px solid #bcbcbc;
 }
 .contenedor_minihistoria p{
     margin-bottom: 1%;
+    padding: 1%;
     color: #3a2a26; 
     font-size: 140%; 
-    padding: 1%;
 }
 .creadores{
     width: 100%;
@@ -394,26 +394,6 @@ input[type="checkbox"]
     margin-bottom: 2%;
     margin-top: 3%;
 }
-.contenedor_fundadores p{
-    width: 100%;
-    margin-top: 1%; 
-    margin-bottom: 1%; 
-    border-radius: 10px;
-    padding: 2%;
-    font-size: 140%;
-}
-.contenedor_fundadores{
-    width: 38%;
-    float: right; 
-    text-align: left; 
-    margin-right: 8.5%;
-    background-color: #dfdddb;
-    border-radius: 10px;
-    padding: 2%;
-    padding-right: 3%;
-    box-shadow: 5px 5px 10px #00000031;
-    border: 2px solid #bcbcbc;
-}
 .creadores img{
     width: 26%;
     height: 455px;
@@ -424,6 +404,26 @@ input[type="checkbox"]
     border-radius: 10px;
     box-shadow: 5px 5px 10px #00000062;
 }
+.contenedor_fundadores{
+    width: 38%;
+    float: right; 
+    text-align: left; 
+    margin-right: 8.5%;
+    padding: 2%;
+    padding-right: 3%;
+    background-color: #dfdddb;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #00000031;
+    border: 2px solid #bcbcbc;
+}
+.contenedor_fundadores p{
+    width: 100%;
+    margin-top: 1%; 
+    margin-bottom: 1%; 
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 140%;
+}
 .creadores .contenedor{
     width: 90%;
     margin-top: 4%;
@@ -433,15 +433,15 @@ input[type="checkbox"]
     width: 30%; 
     height: 145px;
     float: left; 
-    padding:1%;
     margin: 1%;
     margin-left: 10%;
+    padding:1%;
+    padding-bottom: 2%;
+    padding-left: 2%;
     background-color: #dcc9c9; 
     border: 2px solid #8B1E1E; 
     border-radius: 10px; 
     box-shadow: 5px 5px 10px #00000031; 
-    padding-bottom: 2%;
-    padding-left: 2%;
 }
 .contenedor_caracteristicas h4{ 
     font-size: 140%;
